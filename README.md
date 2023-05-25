@@ -1,1 +1,3 @@
 # Drug-Recommendation-Model
+The goal is to build a model which will recommend drugs to patients in relation to their condition. By analyzing reviews, we can understand the drug’s effectiveness and its side effects
+The dataset provides patient reviews on specific drugs along with related conditions and a 10-star patient rating. There are many patient conditions in the dataset, however, we will only focus on Depression, High Blood Pressure, and Type 2 Diabetes. The sample dataset used consists of the following columns: drugName, condition, date, usefulCounts, reviews, and ratings from different patients. 
