@@ -1,0 +1,18 @@
+
+PROBLEM DEFINITION: Here we difined the problem which we needed to solve using the machine learning algorithms. We want to train the model to be able to predict the patient 
+condition and suggest suitable drugs based on the positive and negative reviews. We are concerned on only three conditions namely: Depression,Diabetes Type 2 and High Blood Pressure.
+
+GATHERING AND PREPARING DATA: In this stage, necessary libraries are imported and dataset is loaded using pandas library. We check the missing values by the help info() function then 
+impute the missing values. After handling the missing values we checked and handles outliers using interquatile Range (IQR) and then performed statistical computation
+
+FEATURE EXTRACTION: At this step we convert the textual data into numerical representations that can be understood by the machine learning algorithms. We used Bag-of-Words (BoW)
+and Term Frequency-Inverse Document Frequency (TF-IDF) techniques 
+
+SPLITTING DATA: We split data into training (80%) and testing (20%) sets.
+
+MODEL SELECTION: Here we compared Naive bayes algorithm and Passive aggressive classifier model to check which one is better. We selected PassiveAggressiveClassifier 
+as it was the one performing better
+
+MODEL TRAINING: The training set from splitting data stage is used to train the model.
+
+MODEL EVALUATION: The testing set from splitting data stage is used to assess the accuracy of the model
